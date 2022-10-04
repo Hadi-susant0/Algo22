@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hadib"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-31 12:12:34 AM"/>
+        <attribute name="created" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzA7MDc6Mzk6NTkgUE07MjgxNQ=="/>
+        <attribute name="edited" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzE7MTI6MTI6MzQgQU07MjsyODkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, Luas" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="Luas" expression="3.14*r*r"/>
+            <output expression="Luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hadib"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-31 04:09:54 PM"/>
+        <attribute name="created" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzE7MTI6MTQ6MTAgQU07Mjc3Nw=="/>
+        <attribute name="edited" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzE7MDQ6MDk6NTQgUE07MjsyOTE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nilai, UTS, UAS" type="Real" array="False" size=""/>
+            <input variable="UTS"/>
+            <input variable="UAS"/>
+            <assign variable="Nilai" expression="(UTS + UAS) /2"/>
+            <output expression="&quot;Nilai Anda&quot; &amp; Nilai" newline="True"/>
+            <if expression="Nilai &gt;= 60">
+                <then>
+                    <output expression="&quot;Selamat Anda Lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Anda Tidak lulus, coba lagi!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

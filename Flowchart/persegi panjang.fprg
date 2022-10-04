@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hadib"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-30 07:39:31 PM"/>
+        <attribute name="created" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzA7MDY6NDc6NDEgUE07MjgwNA=="/>
+        <attribute name="edited" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzA7MDc6Mzk6MzEgUE07MTsyOTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Panjang, Lebar, Luas" type="Integer" array="False" size=""/>
+            <input variable="Panjang"/>
+            <input variable="Lebar"/>
+            <assign variable="Luas" expression="Panjang*Lebar"/>
+            <output expression="Luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hadib"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-30 09:40:05 PM"/>
+        <attribute name="created" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzA7MDg6MDI6MTcgUE07MjgwMA=="/>
+        <attribute name="edited" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzA7MDk6NDA6MDUgUE07MzsyOTEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Harga, Jumlah, Total" type="Real" array="False" size=""/>
+            <input variable="Harga"/>
+            <input variable="Jumlah"/>
+            <assign variable="Total" expression="Harga*Jumlah"/>
+            <output expression="&quot;Total belanjaan anda:&quot; &amp; total" newline="True"/>
+            <if expression="Total&gt;1000000">
+                <then>
+                    <output expression="&quot;Bonus: Payung Cantik&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Terima kasih&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

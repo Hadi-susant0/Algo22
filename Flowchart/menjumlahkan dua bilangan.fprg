@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hadib"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-31 12:11:41 AM"/>
+        <attribute name="created" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzE7MTI6MDg6MzAgQU07Mjc4Mg=="/>
+        <attribute name="edited" value="aGFkaWI7TEFQVE9QLTNEM1Q4RjdJOzIwMjItMDgtMzE7MTI6MTE6NDEgQU07MTsyODg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Bilangan1, bilangan2, Jumlah" type="Real" array="False" size=""/>
+            <input variable="Bilangan1"/>
+            <input variable="Bilangan2"/>
+            <assign variable="Jumlah" expression="Bilangan1 + Bilangan2"/>
+            <output expression="Jumlah" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
