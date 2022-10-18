@@ -14,6 +14,7 @@ int main() {
 	cout<<"4. Sembako + APD (Rp. 500.000)"<<endl;
 	cout<<"5. Sembako + ALL (Rp. 1000.000)"<<endl;
 	cout<<"-----------------------"<<endl;
+	cout<<"Masukkan Nama Anda: "; getline(cin,nama);
 	cout<<"Masukkan pilihan anda (1-5): "; cin>>pil;
 	
 	if(pil==1){
@@ -30,7 +31,7 @@ int main() {
 		namaPaket = "Salah pilih"; harga = 0;
 	}
 	
-	cout<<"Masukkan Nama Anda: "; cin>>nama;
+	
 	cout<<"Masukkan Jumlah Paket yang akan disumbangkan: "; cin>>jmlPaket;
 	cout<<"Ingin menambah sumbangan tunai (y/t)? "; cin>>tunai;
 	
