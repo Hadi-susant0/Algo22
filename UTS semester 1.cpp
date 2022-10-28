@@ -31,7 +31,6 @@ int main() {
 		namaPaket = "Salah pilih"; harga = 0;
 	}
 	
-	
 	cout<<"Masukkan Jumlah Paket yang akan disumbangkan: "; cin>>jmlPaket;
 	cout<<"Ingin menambah sumbangan tunai (y/t)? "; cin>>tunai;
 	
